@@ -22,12 +22,14 @@
 .slider-nav {
     width: 1440px;
     overflow: hidden;
+    white-space: nowrap;
     margin: 0 auto;
     padding: 20px 0;
     background-color: #FFECD7;
 }
 .slider-nav img {
     padding: 0 20px;
+    cursor: pointer;
 }
 
 button {
