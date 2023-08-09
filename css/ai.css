@@ -1,0 +1,41 @@
+.fades {
+    width: 100%;
+}
+
+.up {
+    padding: 60px 0 40px 0;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.slider-for {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+.slider-for img{
+    height: 424px;
+}
+
+.slider-nav {
+    width: 1440px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #FFECD7;
+}
+.slider-nav img {
+    padding: 0 20px;
+}
+
+button {
+    display: none;
+}
+
+p {
+    text-align: center;
+    font-size: 22px;
+    padding: 30px 0 60px 0;
+}

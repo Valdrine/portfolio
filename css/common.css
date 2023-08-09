@@ -39,12 +39,33 @@ body {
 .g_item {
     display: flex;
     gap: 20px;
+    font-weight: bold;
 }
+
+.g_item li:hover {
+    color: rgb(255, 97, 97);
+}
+
 
 .title {
     font-size: 24px;
+    cursor: pointer;
 }
 
 .sns {
     padding: 0 70px;
 }
+
+
+.back_btn {
+    display: block;
+    position: fixed;
+    bottom: 50px;
+    left: 5%;
+}
+
+.back_btn img {
+    width: 73px;
+    height: 73px;
+}
+

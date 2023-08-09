@@ -63,6 +63,26 @@
     text-align: center;
 }
 
+.m_img_02 {
+    width: 100%;
+    background-color: #eb0000;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.m_img_03 {
+    width: 100%;
+    background-color: #009b3f;
+    margin: 0 auto;
+    text-align: center;
+}
+.m_img_04 {
+    width: 100%;
+    background-color: #000;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .b_con {
     width: 100%;
     margin-bottom: 80px;
