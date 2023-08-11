@@ -1,0 +1,25 @@
+.progressbar_07{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    overflow:hidden;
+    background: #ccc;
+    position:relative;
+  }
+  .progressbar_07::after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    height: 20px;
+    width:0;
+    background: #1D976C;
+    background: -webkit-linear-gradient(to right, #86f5fd, #1d4497);
+    background: linear-gradient(to right, #93c8f9, #1d6097);
+    animation: progress 1.5s ease forwards;
+    animation-name: progressbar_07;
+  }
+  @keyframes progressbar_07{
+    0%{width: 0px}
+    100%{width: 65%;}
+  }

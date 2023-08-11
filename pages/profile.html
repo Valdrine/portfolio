@@ -6,6 +6,14 @@
     <title>자기소개</title>
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/progress_01.css">
+    <link rel="stylesheet" href="../css/progress_02.css">
+    <link rel="stylesheet" href="../css/progress_03.css">
+    <link rel="stylesheet" href="../css/progress_04.css">
+    <link rel="stylesheet" href="../css/progress_05.css">
+    <link rel="stylesheet" href="../css/progress_06.css">
+    <link rel="stylesheet" href="../css/progress_07.css">
+    <link rel="stylesheet" href="../css/progress_08.css">
     <script src="../js/jquery-1.12.4.js"></script>
 </head>
 <body>
@@ -17,16 +25,55 @@
             <div class="s_box">
                 <h3>Skills</h3>
                 <ul class="s_icon">
-                    <li><img src="../images/p_s_icon_01.png" alt=""></li>
-                    <li><img src="../images/p_s_icon_02.png" alt=""></li>
-                    <li><img src="../images/p_s_icon_03.png" alt=""></li>
-                    <li><img src="../images/p_s_icon_04.png" alt=""></li>
+                    <li><img src="../images/p_s_icon_01.png" alt="">
+                        <ul class="s_progress_01">
+                            <li><p class="s_p_title">포토샵</p></li>
+                            <li class="progressbar_01"></li>
+                        </ul>
+                    </li>
+                    <li><img src="../images/p_s_icon_02.png" alt="">
+                        <ul class="s_progress_02">
+                            <li><p class="s_p_title">일러스트</p></li>
+                            <li class="progressbar_02"></li>
+                        </ul>
+                    </li>
+                    <li><img src="../images/p_s_icon_03.png" alt="">
+                        <ul class="s_progress_03">
+                            <li><p class="s_p_title">프리미어프로</p></li>
+                            <li class="progressbar_03"></li>
+                        </ul>
+                    </li>
+                    <li><img src="../images/p_s_icon_04.png" alt="">
+                        <ul class="s_progress_04">
+                            <li><p class="s_p_title">애프터 이펙트</p></li>
+                            <li class="progressbar_04"></li>
+                        </ul>
+                    </li>
                 </ul>
                 <ul class="s_icon">
-                    <li><img src="../images/p_s_icon_05.png" alt=""></li>
-                    <li><img src="../images/p_s_icon_06.png" alt=""></li>
-                    <li><img src="../images/p_s_icon_07.png" alt=""></li>
-                    <li><img src="../images/p_s_icon_08.png" alt=""></li>
+                    <li><img src="../images/p_s_icon_05.png" alt="">
+                        <ul class="s_progress_05">
+                            <li><p class="s_p_title">CSS</p></li>
+                            <li class="progressbar_05"></li>
+                        </ul>
+                    </li>
+                    <li><img src="../images/p_s_icon_06.png" alt="">
+                        <ul class="s_progress_06">
+                            <li><p class="s_p_title">HTML</p></li>
+                            <li class="progressbar_06"></li>
+                        </ul>
+                    </li>
+                    <li><img src="../images/p_s_icon_07.png" alt="">
+                        <ul class="s_progress_07">
+                            <li><p class="s_p_title">JQUERY</p></li>
+                            <li class="progressbar_07"></li>
+                        </ul></li>
+                    <li><img src="../images/p_s_icon_08.png" alt="">
+                        <ul class="s_progress_08">
+                            <li><p class="s_p_title">아래한글</p></li>
+                            <li class="progressbar_08"></li>
+                        </ul>
+                    </li>
 
                 </ul>
             </div>
@@ -57,6 +104,16 @@
         $(function(){
             $('.back_btn').load('../pages/back_btn.html')
         })
+
+        // 프로그레스
+
+        $('.s_icon li ul').hide()
+        $('.s_icon li').hover(function(){
+            $(this).find('ul').stop().fadeIn()
+        },function(){
+            $(this).find('ul').stop().fadeOut()
+        }
+        )
     </script>
 </body>
 </html>

@@ -90,7 +90,9 @@
 
 .b_img {
     text-align: center;
+    
 }
 .b_img img{
     margin: 0 20px;
+    width: 600px;
 }
