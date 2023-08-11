@@ -96,4 +96,211 @@
     padding-bottom: 2px;
 }
 
+.progressbar_01{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    overflow:hidden;
+    background: #ccc;
+    position:relative;
+  }
+  .progressbar_01::after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    height: 20px;
+    width:0;
+    background: #1D976C;
+    background: -webkit-linear-gradient(to right, #93bff9, #0d0249);
+    background: linear-gradient(to right, #93c8f9, #0c0268);
+    animation: progress 1.5s ease forwards;
+    animation-name: progressbar_01;
+  }
 
+  @keyframes progressbar_01 {
+    0%{width: 0px}
+    100%{width: 70%;}
+  }
+
+  .progressbar_02{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    overflow:hidden;
+    background: #ccc;
+    position:relative;
+  }
+  .progressbar_02::after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    height: 20px;
+    width:0;
+    background: #1D976C;
+    background: -webkit-linear-gradient(to right, #f9d593, #b95c04);
+    background: linear-gradient(to right, #f9d593, #973f03);
+    animation: progress 1.5s ease forwards;
+    animation-name: progressbar_02;
+  }
+  @keyframes progressbar_02{
+    0%{width: 0px}
+    100%{width: 80%;}
+  }
+
+  .progressbar_03{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    overflow:hidden;
+    background: #ccc;
+    position:relative;
+  }
+  .progressbar_03::after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    height: 20px;
+    width:0;
+    background: #1D976C;
+    background: -webkit-linear-gradient(to right, #93a2f9, #0d0249);
+    background: linear-gradient(to right, #9593f9, #0c0268);
+    animation: progress 1.5s ease forwards;
+    animation-name: progressbar_03;
+  }
+  @keyframes progressbar_03{
+    0%{width: 0px}
+    100%{width: 65%;}
+  }
+
+  .progressbar_04{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    overflow:hidden;
+    background: #ccc;
+    position:relative;
+  }
+  .progressbar_04::after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    height: 20px;
+    width:0;
+    background: #1D976C;
+    background: -webkit-linear-gradient(to right, #93a2f9, #0d0249);
+    background: linear-gradient(to right, #9593f9, #0c0268);
+    animation: progress 1.5s ease forwards;
+    animation-name: progressbar_04;
+  }
+  @keyframes progressbar_04{
+    0%{width: 0px}
+    100%{width: 75%;}
+  }
+
+  .progressbar_05{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    overflow:hidden;
+    background: #ccc;
+    position:relative;
+  }
+  .progressbar_05::after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    height: 20px;
+    width:0;
+    background: #1D976C;
+    background: -webkit-linear-gradient(to right, #a993f9, #410fb8);
+    background: linear-gradient(to right, #9395f9, #1f1d97);
+    animation: progress 1.5s ease forwards;
+    animation-name: progressbar_05;
+  }
+  @keyframes progressbar_05{
+    0%{width: 0px}
+    100%{width: 65%;}
+  }
+
+  .progressbar_06{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    overflow:hidden;
+    background: #ccc;
+    position:relative;
+  }
+  .progressbar_06::after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    height: 20px;
+    width:0;
+    background: #1D976C;
+    background: -webkit-linear-gradient(to right, #f9d593, #b95c04);
+    background: linear-gradient(to right, #f9d593, #973f03);
+    animation: progress 1.5s ease forwards;
+    animation-name: progressbar_06;
+  }
+  @keyframes progressbar_06{
+    0%{width: 0px}
+    100%{width: 70%;}
+  }
+
+  .progressbar_07{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    overflow:hidden;
+    background: #ccc;
+    position:relative;
+  }
+  .progressbar_07::after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    height: 20px;
+    width:0;
+    background: #1D976C;
+    background: -webkit-linear-gradient(to right, #86f5fd, #1d4497);
+    background: linear-gradient(to right, #93c8f9, #1d6097);
+    animation: progress 1.5s ease forwards;
+    animation-name: progressbar_07;
+  }
+  @keyframes progressbar_07{
+    0%{width: 0px}
+    100%{width: 65%;}
+  }
+
+  .progressbar_08{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    overflow:hidden;
+    background: #ccc;
+    position:relative;
+  }
+  .progressbar_08::after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    height: 20px;
+    width:0;
+    background: #1D976C;
+    background: -webkit-linear-gradient(to right, #789ff3, #130066);
+    background: linear-gradient(to right, #93F9B9, #4106cc);
+    animation: progress 1.5s ease forwards;
+    animation-name: progressbar_08;
+  }
+  @keyframes progressbar_08{
+    0%{width: 0px}
+    100%{width: 95%;}
+  }
