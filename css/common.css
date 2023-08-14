@@ -39,6 +39,7 @@ body {
 }
 
 .g_item {
+    padding-left: 35px;
     display: flex;
     gap: 20px;
     font-weight: bold;
@@ -55,7 +56,7 @@ body {
 }
 
 .sns {
-    padding: 0 70px;
+    padding-right: 37px;
 }
 
 
